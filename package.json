@@ -1,0 +1,19 @@
+{
+  "name": "universo",
+  "version": "1.0.0",
+  "description": "Portal do clube de desbravadores Universo",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allsouza/Universo.git"
+  },
+  "author": "Andre Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allsouza/Universo/issues"
+  },
+  "homepage": "https://github.com/allsouza/Universo#readme"
+}
