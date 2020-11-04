@@ -30,7 +30,7 @@ This account type will mainly just display useful links and materials instructor
 
 #### Parent
 
-This account type will display information pertnent to the parents such as club dues, information regarding their child(messages, calendar, etc...), eventually documents to be digitally signed.
+This account type will display information pertnent to the parents such as club dues, information regarding their child(messages, calendar, etc...), eventually documents to be digitally signed and submitted.
 
 #### Staff
 
