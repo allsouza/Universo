@@ -1,5 +1,13 @@
-@import './components/main.scss';
+@import './base/fonts';
+@import './base/colors';
+
+@import './components/_main.scss';
 
 html{
     background: black;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: -webkit-fill-available;
 }
