@@ -1,5 +1,6 @@
 @import './base/fonts';
 @import './base/colors';
+@import './base/reset';
 
 @import './components/_main.scss';
 
@@ -10,4 +11,9 @@ html{
     background-size: cover;
     background-position: bottom;
     height: -webkit-fill-available;
+}
+
+body{
+    width: 90%;
+    margin: auto;
 }
