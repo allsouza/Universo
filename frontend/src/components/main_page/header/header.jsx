@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../../../images/logo_dark_bkgrd.png'
 
 export default function PageHeader() {
     return(
         <section className="header">
             <div className="right">
-                <h1>Clube Universo</h1>
+                <img src={logo} alt="Clube Universo"/>
             </div>
             <nav className='left'>
                 <ul>

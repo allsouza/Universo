@@ -2,14 +2,20 @@
     .header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-top: 20px;
         color: white;
 
         .right{
+            display: flex;
+            align-items: center;
+            img{
+                width: 200px;
+            }
             h1{
+                padding-left: 15px;
                 font-family: $titles;
             }
-
         }
 
         .left{
