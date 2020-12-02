@@ -27,6 +27,7 @@
     "mongoose": "^5.10.11",
     "nodemon": "^2.0.6",
     "react-redux": "^7.2.2",
+    "react-responsive-carousel": "^3.2.10",
     "validator": "^13.1.17"
   }
 }
