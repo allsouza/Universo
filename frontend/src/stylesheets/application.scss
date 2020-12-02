@@ -2,7 +2,8 @@
 @import './base/colors';
 @import './base/reset';
 
-@import './components/_main.scss';
+@import './components/main/main';
+@import './components/main/home';
 
 html{
     background: black;

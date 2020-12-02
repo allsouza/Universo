@@ -5,7 +5,7 @@ import MainPage from './main_page/main';
 
 const App = () => (
     <Switch>
-        <Route exact path="/" component={MainPage} />
+        <Route path="/" component={MainPage} />
     </Switch>
 );
 

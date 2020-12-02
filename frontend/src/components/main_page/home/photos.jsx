@@ -4,11 +4,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 export default function Photos() {
     const PHOTOS = [
-        "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0000.jpg",
+        "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0014.jpg",
         "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0001.jpg",
         "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0010.jpg",
-        "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0014.jpg",
         "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0015.jpg",
+        "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0000.jpg",
         "https://clubeuniverso.s3.us-east-2.amazonaws.com/Photos/IMG-20200819-WA0017.jpg"
     ]
 
