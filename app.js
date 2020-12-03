@@ -1,7 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const users = require("./routes/api/users");
 const bodyParser = require('body-parser');
+
+const users = require("./routes/api/users");
+const email = require('./routes/api/email');
 
 const app = express();
 
@@ -22,6 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use("/api/users", users);
+app.use('/api/email', email);
 
 const port = process.env.PORT || 5000;
 

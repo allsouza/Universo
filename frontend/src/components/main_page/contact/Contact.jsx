@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import { sendEmail } from '../../../util/email_util'
 
-function Contact({language}) {
+function Contact({language, sendEmail}) {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [msg, setMsg] = useState("")
 
-    function submit(e) {
+    async function submit(e) {
         e.preventDefault()
-        sendEmail({name, email, msg})
+        const res = await sendEmail({name, email, msg})
     }
     
     return(
@@ -46,7 +46,7 @@ const mSTP = state => ({
 })
 
 const mDTP = dispatch => ({
-
+    sendEmail: email => sendEmail(email)
 })
 
 export default connect(mSTP, mDTP)(Contact)

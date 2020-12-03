@@ -1,9 +1,5 @@
 import axios from 'axios';
 
 export const sendEmail = email => {
-    axios({
-        method: "POST",
-        url: "", 
-        data: email
-    })
+    return axios.post("/api/email/send/", email)
 }
