@@ -4,6 +4,14 @@ const users = require("./routes/api/users");
 const bodyParser = require('body-parser');
 
 const app = express();
+
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('frontend/build'));
+  app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
+  })
+}
+
 const db = require('./config/keys').mongoURI;
 mongoose
   .connect(db, { useNewUrlParser: true })
@@ -13,7 +21,6 @@ mongoose
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/', (req,res) => res.send('Clube Universo'))
 app.use("/api/users", users);
 
 const port = process.env.PORT || 5000;
