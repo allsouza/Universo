@@ -5,6 +5,7 @@ import About from './about/about';
 import Contact from './contact/Contact';
 import History from './history/history';
 import Home from './home/Home';
+import Ideals from './ideals/Ideals';
 
 export default function Main() {
     return(
@@ -15,6 +16,7 @@ export default function Main() {
                 <Route exact path='/about' component={About}/>
                 <Route exact path='/history' component={History}/>
                 <Route exact path='/contact' component={Contact}/>
+                <Route exact path='/ideals' component={Ideals}/>
             </Switch>
         </div>
     )

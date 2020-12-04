@@ -19,6 +19,7 @@ export default function Photos() {
             dynamicHeight={true}
             interval={7000}
             swipeable={true}
+            stopOnHover={true}
             autoPlay={true}>
             {PHOTOS.map(photo => {
                 return(
