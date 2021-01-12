@@ -38,3 +38,13 @@
         }
     }
 }
+
+@media only screen and (max-width:768px){
+    .home{
+        .photos{
+            max-width: 90%;
+            .picture{
+            }
+        }
+    }
+}
