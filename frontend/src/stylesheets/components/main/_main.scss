@@ -51,4 +51,14 @@
             }
         }
     }
+
+    @media only screen and (max-width:768px){
+        .left{
+            padding: 0 50px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
